@@ -35,14 +35,37 @@ Code to preprocess images. It contains:
 ## Building a neural network model with Keras
 
 # Transfer Learning
+Transfer Learning based on different pre-trained nets will be done. All of them will be used with the ImageNet pre-trained weights and the same classifier will be added to be able to comapre them. 
 
+The classifier will have one Dense layer of 256 neurons and "tanh" as activation. One Flatten Layer if needed and 3 Dense Layer with 100 neurons each and "tanh" as activation. Finally, one Dense with 7 neurones and softmax to classify. It will use "adam" as optimizer and "categorical_crossentropy" as loss function.
+
+Only the final classifier will be trained due to the lack of resources and time. All of them will be trained since 5 epochs.
+
+Results:
+![](images/comparision.png?raw=true)
 ## MobilenetV2
+***Notebook: Notebooks/TransferLearningMobilenetV2.ipynb***
+[Link to notebook](./Notebooks/TransferLearningMobilenetV2.ipynb)
+Confussion Matrix:
+![](images/matriz-mobilenet.png?raw=true)
 
 ## ResNet50
+***Notebook: Notebooks/TransferLearningResNet50.ipynb***
+[Link to notebook](./Notebooks/TransferLearningResNet50.ipynb)
+Confussion Matrix:
+![](images/matriz-resnet.png?raw=true)
 
 ## InceptionV3
+***Notebook: Notebooks/TransferLearningInceptionV3.ipynb***
+[Link to notebook](./Notebooks/TransferLearningInceptionV3.ipynb)
+Confussion Matrix:
+![](images/matriz-inception.png?raw=true)
 
 ## VGG19
+***Notebook: Notebooks/TransferLearningVGG19.ipynb***
+[Link to notebook](./Notebooks/TransferLearningVGG19.ipynb)
+Confussion Matrix:
+![](images/matriz-vgg.png?raw=true)
 
 __________________
 
