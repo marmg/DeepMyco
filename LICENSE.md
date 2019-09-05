@@ -1,4 +1,4 @@
-Software License:
+**Software License:**
 
 Copyright [DeepMyco] [Marcos Martı́nez Galindo]
 
@@ -13,7 +13,7 @@ limitations under the License.
 
 DeepMyco by Marcos Martı́nez Galindo is licensed under a Apache 2-0 License.
 
-Report:
+**Report:**
 
 El presente documento, ası́ como todo el trabajo de estudio realizado, se encuentra al amparo de una licencia Creative Commons.
 
