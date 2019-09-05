@@ -41,7 +41,7 @@ The classifier will have one Dense layer of 256 neurons and "tanh" as activation
 
 Only the final classifier will be trained due to the lack of resources and time. All of them will be trained since 5 epochs.
 
-Results:
+Results (radius of circle = size of model file):
 
 ![](images/comparision.png?raw=true)
 
