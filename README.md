@@ -26,20 +26,13 @@ Code to preprocess images. It contains:
 - Data Augmentation
 - Creation of numpy arrays (X_train, X_test, y_train, y_test)
 
-# Building a neural network
-
-## Building a neural network from scratch
-
-## Building a neural network model with Sklearn
-
-## Building a neural network model with Keras
 
 # Transfer Learning
 Transfer Learning based on different pre-trained nets will be done. All of them will be used with the ImageNet pre-trained weights and the same classifier will be added to be able to comapre them. 
 
 The classifier will have one Dense layer of 256 neurons and "tanh" as activation. One Flatten Layer if needed and 3 Dense Layer with 100 neurons each and "tanh" as activation. Finally, one Dense with 7 neurones and softmax to classify. It will use "adam" as optimizer and "categorical_crossentropy" as loss function.
 
-Only the final classifier will be trained due to the lack of resources and time. All of them will be trained since 5 epochs.
+Only the final classifier will be trained due to the lack of resources and time (Intel i7-5500U 2-Core @3.00GHz). All of them will be trained since 5 epochs.
 
 Results (radius of circle = size of model file):
 
