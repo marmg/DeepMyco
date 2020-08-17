@@ -50,7 +50,7 @@ Confussion Matrix:
 ## ResNet50
 ***Notebook: Notebooks/TransferLearningResNet50.ipynb***
 
-[Link to notebook](./Notebooks/TransferLearningResNet50.ipynb)
+[Link to notebook](./Notebooks/TransferLearningResNet.ipynb)
 
 Confussion Matrix:
 
